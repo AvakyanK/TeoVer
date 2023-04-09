@@ -2,7 +2,7 @@
 
 This gem allows you to use the basic formulas of probability theory from the section on discrete random variables.
 
-## Installation
+## Installationbundle lock --add-platform x86_64-linux
 Install the gem and add to the application's Gemfile by executing:
 
     $ bundle add TeorVer
