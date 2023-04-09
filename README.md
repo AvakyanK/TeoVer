@@ -1,24 +1,66 @@
 # TeorVer
 
-TODO: Delete this and the text below, and describe your gem
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/TeorVer`. To experiment with that code, run `bin/console` for an interactive prompt.
+This gem allows you to use the basic formulas of probability theory from the section on discrete random variables.
 
 ## Installation
-
-TODO: Replace `UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG` with your gem name right after releasing it to RubyGems.org. Please do not do it earlier due to security reasons. Alternatively, replace this section with instructions to install your gem from git if you don't plan to release to RubyGems.org.
-
 Install the gem and add to the application's Gemfile by executing:
 
-    $ bundle add UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    $ bundle add TeorVer
 
 If bundler is not being used to manage dependencies, install the gem by executing:
 
-    $ gem install UPDATE_WITH_YOUR_GEM_NAME_PRIOR_TO_RELEASE_TO_RUBYGEMS_ORG
+    $ gem install TeorVer
 
 ## Usage
 
-TODO: Write usage instructions here
+
+You can calculate the expected value with
+'''ruby
+expectedValue.create(hashValProb)
+'''
+
+
+
+You can calculate the random variable variance with
+'''ruby
+dispersion.create(hashValProb)
+'''
+
+
+You can calculate the standard deviation with
+'''ruby
+standardDev(hashValProb)
+'''
+
+
+You can calculate the binomial distribution with
+'''ruby
+binDis(p, n, k)
+'''
+
+
+You can calculate the binomial expected value with
+'''ruby
+binExpectVal(n, p)
+'''
+
+
+You can calculate the binomial random variable variance with
+'''ruby
+binDisper(n, p)
+'''
+
+
+You can calculate the binomial standard deviation with
+'''ruby
+binDisper(n, p)
+'''
+
+
+You can calculate the сumulative distribution function
+'''ruby
+distibFun(hashValProb)
+'''
 
 ## Development
 
